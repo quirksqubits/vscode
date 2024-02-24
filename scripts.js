@@ -259,7 +259,238 @@ const recipes = {
             "ingredients": ["chicken breast", "quinoa", "broccoli", "soy sauce", "sesame oil"],
             "name": "Chicken and Broccoli Quinoa Bowl",
             "instructions": "1. Cook quinoa according to package instructions.\n2. Stir fry sliced chicken breast with chopped broccoli.\n3. Season with soy sauce and sesame oil.\n4. Serve over cooked quinoa."
-        }
+        },
+        {
+            ingredients: ["tofu", "broccoli", "bell pepper", "carrots", "soy sauce", "garlic", "ginger"],
+            name: "Vegetable Stir Fry with Tofu",
+            instructions: "1. Press tofu to remove excess water, then cut into cubes.\n2. Stir fry tofu with sliced vegetables in garlic and ginger.\n3. Add soy sauce and cook until vegetables are tender.\n4. Serve hot over rice or noodles."
+          },
+          {
+            ingredients: ["Arborio rice", "mushrooms", "onion", "garlic", "vegetable broth", "white wine", "parmesan cheese", "butter"],
+            name: "Mushroom Risotto",
+            instructions: "1. Saute chopped onion and minced garlic in butter until soft.\n2. Add sliced mushrooms and cook until browned.\n3. Stir in Arborio rice and cook until translucent.\n4. Pour in white wine and simmer until absorbed.\n5. Gradually add vegetable broth, stirring until rice is creamy and cooked.\n6. Stir in grated parmesan cheese before serving."
+          },
+          {
+            ingredients: ["salmon fillets", "honey", "dijon mustard", "lemon juice", "olive oil", "salt", "pepper"],
+            name: "Honey Mustard Glazed Salmon",
+            instructions: "1. Preheat oven to 400°F (200°C) and line a baking sheet with parchment paper.\n2. In a small bowl, mix honey, dijon mustard, lemon juice, olive oil, salt, and pepper.\n3. Brush the mixture over salmon fillets.\n4. Bake for 12-15 minutes, or until salmon is cooked through and flakes easily with a fork."
+          },
+          {
+            ingredients: ["tomatoes", "fresh mozzarella cheese", "fresh basil leaves", "balsamic glaze", "olive oil", "salt", "pepper"],
+            name: "Caprese Salad",
+            instructions: "1. Slice tomatoes and fresh mozzarella cheese.\n2. Arrange alternating slices of tomato, mozzarella, and basil leaves on a serving plate.\n3. Drizzle with balsamic glaze and olive oil.\n4. Season with salt and pepper to taste before serving."
+          },
+          {
+            ingredients: ["whole chicken", "lemon", "garlic", "fresh herbs", "olive oil", "salt", "pepper"],
+            name: "Lemon Herb Roast Chicken",
+            instructions: "1. Preheat oven to 425°F (220°C).\n2. Rinse chicken and pat dry with paper towels.\n3. Stuff cavity with lemon halves, garlic cloves, and fresh herbs.\n4. Rub olive oil over the chicken and season generously with salt and pepper.\n5. Place chicken on a roasting pan and roast for 1 hour or until juices run clear and skin is golden brown."
+          },
+          {
+            ingredients: ["kidney beans", "black beans", "diced tomatoes", "onion", "bell pepper", "garlic", "chili powder", "cumin", "paprika", "vegetable broth"],
+            name: "Vegetarian Chili",
+            instructions: "1. Saute diced onion, bell pepper, and minced garlic in a large pot until softened.\n2. Add diced tomatoes, drained and rinsed beans, chili powder, cumin, paprika, and vegetable broth.\n3. Simmer for 20-30 minutes, stirring occasionally.\n4. Serve hot topped with shredded cheese, sour cream, and chopped cilantro if desired."
+          },
+          {
+            ingredients: ["chicken breast", "flour", "butter", "olive oil", "lemon", "capers", "chicken broth", "white wine", "parsley", "salt", "pepper"],
+            name: "Chicken Piccata",
+            instructions: "1. Pound chicken breast to an even thickness, then season with salt and pepper.\n2. Dredge chicken in flour, shaking off excess.\n3. Heat butter and olive oil in a skillet over medium-high heat.\n4. Cook chicken until golden brown on both sides and cooked through, then remove from skillet and set aside.\n5. In the same skillet, add lemon juice, capers, chicken broth, and white wine. Cook until sauce is reduced by half.\n6. Return chicken to the skillet and simmer for a few minutes.\n7. Garnish with chopped parsley before serving."
+          },
+          {
+            ingredients: ["eggplant", "flour", "eggs", "breadcrumbs", "marinara sauce", "mozzarella cheese", "parmesan cheese", "basil", "olive oil", "salt", "pepper"],
+            name: "Eggplant Parmesan",
+            instructions: "1. Preheat oven to 375°F (190°C) and grease a baking dish.\n2. Slice eggplant into rounds, then dip in flour, beaten eggs, and breadcrumbs.\n3. Arrange breaded eggplant slices in a single layer in the baking dish.\n4. Top each slice with marinara sauce, mozzarella cheese, and parmesan cheese.\n5. Repeat layering until all eggplant slices are used.\n6. Bake for 25-30 minutes, or until cheese is bubbly and golden.\n7. Garnish with fresh basil before serving."
+          },
+          {
+            ingredients: ["shrimp", "linguine pasta", "butter", "olive oil", "garlic", "white wine", "lemon juice", "parsley", "salt", "pepper"],
+            name: "Shrimp Scampi",
+            instructions: "1. Cook linguine pasta according to package instructions, then drain and set aside.\n2. In a large skillet, melt butter with olive oil over medium heat.\n3. Add minced garlic and cook until fragrant, about 1 minute.\n4. Stir in white wine and lemon juice, then add shrimp to the skillet.\n5. Cook shrimp until pink and opaque, then season with salt and pepper.\n6. Toss cooked pasta with shrimp and sauce until well combined.\n7. Garnish with chopped parsley before serving."
+          },
+          {
+            ingredients: ["potatoes", "olive oil", "lemon juice", "garlic", "fresh herbs", "salt", "pepper"],
+            name: "Lemon Herb Roasted Potatoes",
+            instructions: "1. Preheat oven to 400°F (200°C) and line a baking sheet with parchment paper.\n2. Cut potatoes into bite-sized pieces and place them in a bowl.\n3. In a small bowl, whisk together olive oil, lemon juice, minced garlic, chopped herbs, salt, and pepper.\n4. Pour the mixture over the potatoes and toss until evenly coated.\n5. Spread potatoes in a single layer on the baking sheet.\n6. Roast for 25-30 minutes, or until potatoes are golden brown and crispy."
+          },
+          {
+            ingredients: ["quinoa", "cucumber", "cherry tomatoes", "kalamata olives", "red onion", "feta cheese", "lemon juice", "olive oil", "garlic", "oregano", "salt", "pepper"],
+            name: "Mediterranean Quinoa Salad",
+            instructions: "1. Cook quinoa according to package instructions and let it cool.\n2. Dice cucumber, halve cherry tomatoes, slice kalamata olives, and finely chop red onion.\n3. In a large bowl, combine cooked quinoa with prepared vegetables and crumbled feta cheese."
+          },
+          {
+            ingredients: ["chickpeas", "red onion", "green pepper", "cucumber", "tomato", "feta cheese", "olive oil", "red wine vinegar", "oregano", "salt", "pepper"],
+            name: "Greek Chickpea Salad",
+            instructions: "1. Rinse and drain chickpeas.\n2. Chop red onion, green pepper, cucumber, and tomato.\n3. In a large bowl, combine chickpeas and chopped vegetables.\n4. Crumble feta cheese over the salad.\n5. In a small bowl, whisk together olive oil, red wine vinegar, oregano, salt, and pepper.\n6. Drizzle dressing over the salad and toss to coat evenly."
+          },
+          {
+            ingredients: ["ground beef", "onion", "green pepper", "garlic", "canned tomatoes", "tomato paste", "chili powder", "cumin", "paprika", "kidney beans", "black beans", "corn", "salt", "pepper"],
+            name: "Beef and Bean Chili",
+            instructions: "1. In a large pot, brown ground beef over medium heat.\n2. Add diced onion, green pepper, and minced garlic. Cook until softened.\n3. Stir in canned tomatoes, tomato paste, chili powder, cumin, paprika, salt, and pepper.\n4. Add kidney beans, black beans, and corn.\n5. Simmer for at least 30 minutes, stirring occasionally.\n6. Serve hot with your favorite toppings."
+          },
+          {
+            ingredients: ["chicken thighs", "soy sauce", "honey", "rice vinegar", "garlic", "ginger", "sesame oil", "cornstarch", "green onions", "sesame seeds"],
+            name: "Honey Garlic Chicken",
+            instructions: "1. In a bowl, mix soy sauce, honey, rice vinegar, minced garlic, grated ginger, sesame oil, and cornstarch.\n2. Add chicken thighs to the bowl and toss to coat evenly.\n3. Heat oil in a skillet over medium-high heat.\n4. Add chicken thighs and cook until browned and cooked through.\n5. Garnish with sliced green onions and sesame seeds before serving."
+          },
+          {
+            ingredients: ["pork tenderloin", "soy sauce", "brown sugar", "honey", "garlic", "ginger", "sesame oil", "cornstarch", "green onions"],
+            name: "Honey Garlic Pork Tenderloin",
+            instructions: "1. In a bowl, mix soy sauce, brown sugar, honey, minced garlic, grated ginger, sesame oil, and cornstarch.\n2. Add pork tenderloin to the bowl and toss to coat evenly.\n3. Marinate for at least 30 minutes, or overnight in the refrigerator.\n4. Preheat oven to 375°F (190°C).\n5. Place pork tenderloin on a baking sheet lined with parchment paper.\n6. Bake for 25-30 minutes, or until internal temperature reaches 145°F (63°C).\n7. Let it rest for 5 minutes before slicing.\n8. Garnish with sliced green onions before serving."
+          },
+          {
+            ingredients: ["potatoes", "olive oil", "garlic powder", "paprika", "rosemary", "salt", "pepper"],
+            name: "Roasted Garlic Rosemary Potatoes",
+            instructions: "1. Preheat oven to 425°F (220°C) and line a baking sheet with parchment paper.\n2. Cut potatoes into wedges or cubes.\n3. In a bowl, toss potatoes with olive oil, garlic powder, paprika, chopped rosemary, salt, and pepper until evenly coated.\n4. Spread potatoes in a single layer on the baking sheet.\n5. Roast for 25-30 minutes, or until golden brown and crispy, flipping halfway through."
+          },
+          {
+            ingredients: ["salmon fillets", "lemon", "dill", "garlic", "salt", "pepper"],
+            name: "Lemon Dill Salmon",
+            instructions: "1. Preheat oven to 400°F (200°C) and line a baking sheet with parchment paper.\n2. Place salmon fillets on the baking sheet.\n3. Squeeze lemon juice over the salmon and sprinkle with chopped dill and minced garlic.\n4. Season with salt and pepper.\n5. Bake for 12-15 minutes, or until salmon is cooked through and flakes easily with a fork."
+          },
+          {
+            ingredients: ["pasta", "butter", "parmesan cheese", "garlic", "parsley", "salt", "pepper"],
+            name: "Garlic Butter Parmesan Pasta",
+            instructions: "1. Cook pasta according to package instructions, then drain and set aside.\n2. In a skillet, melt butter over medium heat.\n3. Add minced garlic and cook until fragrant, about 1 minute.\n4. Toss cooked pasta with garlic butter sauce until evenly coated.\n5. Stir in grated parmesan cheese, chopped parsley, salt, and pepper.\n6. Serve hot, garnished with additional parmesan and parsley if desired."
+          },
+          {
+            ingredients: ["chicken breasts", "flour", "egg", "breadcrumbs", "olive oil", "marinara sauce", "mozzarella cheese", "parmesan cheese", "basil", "salt", "pepper"],
+            name: "Chicken Parmesan",
+            instructions: "1. Preheat oven to 400°F (200°C) and line a baking sheet with parchment paper.\n2. Pound chicken breasts to an even thickness, then season with salt and pepper.\n3. Dredge chicken in flour, then dip in beaten egg and coat with breadcrumbs.\n4. Heat olive oil in a skillet over medium-high heat.\n5. Cook chicken until golden brown on both sides, then transfer to the prepared baking sheet.\n6. Top each chicken breast with marinara sauce, mozzarella cheese, and grated parmesan cheese.\n7. Bake for 15-20 minutes, or until cheese is melted and bubbly.\n8. Garnish with chopped basil before serving."
+          },
+          {
+            ingredients: ["beef sirloin", "bell peppers", "onion", "soy sauce", "brown sugar", "garlic", "ginger", "cornstarch", "rice", "green onions"],
+            name: "Beef Stir Fry",
+            instructions: "1. Slice beef sirloin thinly against the grain.\n2. In a bowl, whisk together soy sauce, brown sugar, minced garlic, grated ginger, and cornstarch.\n3. Heat oil in a skillet or wok over high heat.\n4. Add sliced beef and cook until browned, then remove from skillet.\n5. Add sliced bell peppers and onion to the skillet and cook until tender-crisp.\n6. Return beef to the skillet and pour in the sauce.\n7. Cook, stirring constantly, until the sauce has thickened and coats the beef and vegetables.\n8. Serve hot over cooked rice, garnished with sliced green onions."
+          },
+          {
+            ingredients: ["shrimp", "linguine", "butter", "olive oil", "garlic", "red pepper flakes", "lemon", "parsley", "salt", "pepper"],
+            name: "Garlic Butter Shrimp Pasta",
+            instructions: "1. Cook linguine according to package instructions, then drain and set aside.\n2. In a skillet, melt butter with olive oil over medium heat.\n3. Add minced garlic and red pepper flakes, and cook until fragrant.\n4. Add shrimp to the skillet and cook until pink and opaque.\n5. Squeeze lemon juice over the shrimp and toss to coat.\n6. Add cooked linguine to the skillet and toss with the shrimp and sauce.\n7. Season with chopped parsley, salt, and pepper.\n8. Serve hot, garnished with additional parsley and lemon wedges if desired."
+          },
+          {
+            ingredients: ["pork chops", "maple syrup", "dijon mustard", "garlic", "thyme", "salt", "pepper"],
+            name: "Maple Dijon Pork Chops",
+            instructions: "1. Preheat oven to 400°F (200°C) and line a baking sheet with parchment paper.\n2. Season pork chops with salt and pepper.\n3. In a small bowl, whisk together maple syrup, Dijon mustard, minced garlic, and chopped thyme.\n4. Brush the maple Dijon mixture over both sides of the pork chops.\n5. Place pork chops on the prepared baking sheet and bake for 20-25 minutes, or until cooked through.\n6. Serve hot, garnished with additional chopped thyme if desired."
+          },
+          {
+            ingredients: ["spinach", "ricotta cheese", "mozzarella cheese", "parmesan cheese", "garlic", "salt", "pepper", "lasagna noodles", "marinara sauce"],
+            name: "Spinach Lasagna Roll-Ups",
+            instructions: "1. Preheat oven to 375°F (190°C) and grease a baking dish.\n2. Cook lasagna noodles according to package instructions, then lay them out flat.\n3. In a bowl, mix together ricotta cheese, shredded mozzarella cheese, grated parmesan cheese, minced garlic, salt, and pepper.\n4. Spread a layer of the cheese mixture onto each lasagna noodle, then top with a layer of spinach leaves.\n5. Roll up the lasagna noodles and place them seam-side down in the prepared baking dish.\n6. Pour marinara sauce over the top of the roll-ups, then sprinkle with additional mozzarella and parmesan cheese.\n7. Cover with foil and bake for 20 minutes.\n8. Remove foil and bake for an additional 10 minutes, or until cheese is melted and bubbly."
+          },
+          {
+            ingredients: ["chicken breasts", "bacon", "ranch seasoning", "cheddar cheese", "green onions"],
+            name: "Bacon Ranch Chicken",
+            instructions: "1. Preheat oven to 400°F (200°C) and line a baking sheet with parchment paper.\n2. Season chicken breasts with ranch seasoning on both sides.\n3. Wrap each chicken breast with slices of bacon.\n4. Place chicken breasts on the prepared baking sheet.\n5. Bake for 25-30 minutes, or until chicken is cooked through.\n6. Sprinkle shredded cheddar cheese and chopped green onions over the chicken.\n7. Return to the oven and bake for an additional 5 minutes, or until cheese is melted.\n8. Serve hot, garnished with additional green onions if desired."
+          },
+          {
+            ingredients: ["salmon fillets", "brown sugar", "soy sauce", "garlic", "ginger", "sesame oil", "sesame seeds"],
+            name: "Brown Sugar Glazed Salmon",
+            instructions: "1. Preheat oven to 400°F (200°C) and line a baking sheet with parchment paper.\n2. In a small bowl, mix together brown sugar, soy sauce, minced garlic, grated ginger, sesame oil, and sesame seeds.\n3. Place salmon fillets on the prepared baking sheet.\n4. Brush the brown sugar glaze over the salmon.\n5. Bake for 12-15 minutes, or until salmon is cooked through and flakes easily with a fork.\n6. Serve hot, garnished with additional sesame seeds if desired."
+          },
+          {
+            ingredients: ["ground beef", "onion", "bell pepper", "garlic", "tomato sauce", "diced tomatoes", "chili powder", "cumin", "paprika", "cayenne pepper", "kidney beans", "black beans", "corn", "salt", "pepper"],
+            name: "Homemade Chili",
+            instructions: "1. In a large pot, brown ground beef over medium heat.\n2. Add diced onion, chopped bell pepper, and minced garlic. Cook until softened.\n3. Stir in tomato sauce, diced tomatoes, chili powder, cumin, paprika, cayenne pepper, salt, and pepper.\n4. Add kidney beans, black beans, and corn.\n5. Simmer for at least 30 minutes, stirring occasionally.\n6. Serve hot with your favorite toppings."
+          },
+          {
+            ingredients: ["chicken thighs", "lemon", "garlic", "rosemary", "thyme", "salt", "pepper"],
+            name: "Lemon Herb Roast Chicken",
+            instructions: "1. Preheat oven to 425°F (220°C) and line a baking dish with parchment paper.\n2. Pat chicken thighs dry with paper towels and season with salt and pepper.\n3. Zest and juice the lemon, then mince the garlic and chop the rosemary and thyme.\n4. In a small bowl, combine lemon zest, lemon juice, minced garlic, chopped rosemary, chopped thyme, salt, and pepper.\n5. Rub the herb mixture over the chicken thighs.\n6. Place chicken thighs in the prepared baking dish and roast for 25-30 minutes, or until golden brown and cooked through.\n7. Serve hot, garnished with additional lemon wedges if desired."
+          },
+          {
+            ingredients: ["salmon fillets", "maple syrup", "soy sauce", "garlic", "ginger", "lemon", "sesame seeds"],
+            name: "Maple Soy Glazed Salmon",
+            instructions: "1. Preheat oven to 400°F (200°C) and line a baking sheet with parchment paper.\n2. In a small bowl, whisk together maple syrup, soy sauce, minced garlic, grated ginger, and lemon juice.\n3. Place salmon fillets on the prepared baking sheet.\n4. Brush the maple soy glaze over the salmon.\n5. Sprinkle sesame seeds over the salmon.\n6. Bake for 12-15 minutes, or until salmon is cooked through and flakes easily with a fork.\n7. Serve hot, garnished with additional sesame seeds if desired."
+          },
+          {
+            ingredients: ["ground turkey", "onion", "bell pepper", "garlic", "tomato sauce", "diced tomatoes", "chili powder", "cumin", "paprika", "kidney beans", "black beans", "corn", "salt", "pepper"],
+            name: "Turkey Chili",
+            instructions: "1. In a large pot, brown ground turkey over medium heat.\n2. Add diced onion, chopped bell pepper, and minced garlic. Cook until softened.\n3. Stir in tomato sauce, diced tomatoes, chili powder, cumin, paprika, salt, and pepper.\n4. Add kidney beans, black beans, and corn.\n5. Simmer for at least 30 minutes, stirring occasionally.\n6. Serve hot with your favorite toppings."
+          },
+          {
+            ingredients: ["chicken breasts", "lime", "garlic", "cumin", "chili powder", "smoked paprika", "salt", "pepper", "olive oil"],
+            name: "Mexican Grilled Chicken",
+            instructions: "1. In a small bowl, whisk together lime juice, minced garlic, ground cumin, chili powder, smoked paprika, salt, pepper, and olive oil.\n2. Place chicken breasts in a shallow dish and pour the marinade over them.\n3. Cover and refrigerate for at least 30 minutes, or up to 4 hours.\n4. Preheat grill to medium-high heat.\n5. Remove chicken from marinade and discard excess.\n6. Grill chicken for 6-8 minutes per side, or until cooked through and juices run clear.\n7. Let chicken rest for a few minutes before serving.\n8. Serve hot, garnished with lime wedges and chopped cilantro if desired."
+          },
+          {
+            ingredients: ["pork tenderloin", "soy sauce", "hoisin sauce", "honey", "garlic", "ginger", "sesame oil", "sriracha", "green onions", "sesame seeds"],
+            name: "Asian Glazed Pork Tenderloin",
+            instructions: "1. Preheat oven to 400°F (200°C) and line a baking sheet with parchment paper.\n2. In a small bowl, whisk together soy sauce, hoisin sauce, honey, minced garlic, grated ginger, sesame oil, and sriracha.\n3. Place pork tenderloin on the prepared baking sheet.\n4. Brush the Asian glaze over the pork tenderloin.\n5. Sprinkle sliced green onions and sesame seeds over the pork tenderloin.\n6. Bake for 25-30 minutes, or until pork is cooked through and reaches an internal temperature of 145°F (63°C).\n7. Let it rest for 5 minutes before slicing.\n8. Serve hot, garnished with additional sliced green onions and sesame seeds if desired."
+          },
+          {
+            ingredients: ["shrimp", "linguine", "butter", "garlic", "lemon", "parsley", "salt", "pepper", "red pepper flakes", "parmesan cheese"],
+            name: "Lemon Garlic Shrimp Pasta",
+            instructions: "1. Cook linguine according to package instructions, then drain and set aside.\n2. In a skillet, melt butter over medium heat.\n3. Add minced garlic and red pepper flakes, and cook until fragrant.\n4. Add shrimp to the skillet and cook until pink and opaque.\n5. Squeeze lemon juice over the shrimp and toss to coat.\n6. Add cooked linguine to the skillet and toss with the shrimp and sauce.\n7. Season with chopped parsley, salt, and pepper.\n8. Serve hot, garnished with grated parmesan cheese."
+          },
+          {
+            ingredients: ["ground beef", "onion", "bell pepper", "garlic", "tomato sauce", "diced tomatoes", "oregano", "basil", "salt", "pepper", "lasagna noodles", "ricotta cheese", "mozzarella cheese", "parmesan cheese"],
+            name: "Classic Lasagna",
+            instructions: "1. Preheat oven to 375°F (190°C) and grease a baking dish.\n2. In a large skillet, brown ground beef over medium heat.\n3. Add diced onion, chopped bell pepper, and minced garlic. Cook until softened.\n4. Stir in tomato sauce, diced tomatoes, dried oregano, dried basil, salt, and pepper.\n5. Simmer for 15-20 minutes, stirring occasionally.\n6. Meanwhile, cook lasagna noodles according to package instructions, then drain and set aside.\n7. In a bowl, mix together ricotta cheese, shredded mozzarella cheese, and grated parmesan cheese.\n8. Spread a layer of meat sauce in the bottom of the prepared baking dish.\n9. Top with a layer of lasagna noodles, followed by a layer of cheese mixture.\n10. Repeat layers until all ingredients are used, ending with a layer of cheese on top.\n11. Cover with foil and bake for 30 minutes.\n12. Remove foil and bake for an additional 15 minutes, or until cheese is melted and bubbly."
+          },
+          {
+            ingredients: ["chicken thighs", "soy sauce", "pineapple juice", "brown sugar", "ketchup", "garlic", "ginger", "cornstarch", "pineapple chunks", "green onions"],
+            name: "Sweet and Sour Chicken",
+            instructions: "1. Preheat oven to 400°F (200°C) and line a baking dish with parchment paper.\n2. In a bowl, whisk together soy sauce, pineapple juice, brown sugar, ketchup, minced garlic, grated ginger, and cornstarch.\n3. Place chicken thighs in the prepared baking dish.\n4. Pour half of the sweet and sour sauce over the chicken, reserving the rest.\n5. Bake for 25-30 minutes, or until chicken is cooked through.\n6. In a saucepan, heat the reserved sweet and sour sauce over medium heat.\n7. Add pineapple chunks and sliced green onions to the sauce.\n8. Cook until the sauce has thickened.\n9. Serve chicken with the sweet and sour sauce, garnished with additional green onions if desired."
+          },
+          {
+            ingredients: ["salmon fillets", "balsamic vinegar", "honey", "garlic", "rosemary", "olive oil", "salt", "pepper"],
+            name: "Balsamic Glazed Salmon",
+            instructions: "1. Preheat oven to 400°F (200°C) and line a baking sheet with parchment paper.\n2. In a small bowl, whisk together balsamic vinegar, honey, minced garlic, chopped rosemary, olive oil, salt, and pepper.\n3. Place salmon fillets on the prepared baking sheet.\n4. Brush the balsamic glaze over the salmon.\n5. Bake for 12-15 minutes, or until salmon is cooked through and flakes easily with a fork.\n6. Serve hot, garnished with additional chopped rosemary if desired."
+          },
+          {
+            ingredients: ["ground beef", "onion", "garlic", "carrots", "celery", "tomato paste", "beef broth", "diced tomatoes", "bay leaves", "thyme", "oregano", "salt", "pepper", "elbow macaroni"],
+            name: "Beef and Tomato Macaroni Soup",
+            instructions: "1. In a large pot, brown ground beef over medium heat.\n2. Add diced onion, minced garlic, chopped carrots, and chopped celery. Cook until softened.\n3. Stir in tomato paste and cook for 2 minutes.\n4. Add beef broth, diced tomatoes, bay leaves, dried thyme, dried oregano, salt, and pepper.\n5. Simmer for 20-25 minutes, stirring occasionally.\n6. Meanwhile, cook elbow macaroni according to package instructions, then drain and set aside.\n7. Remove bay leaves from the soup and discard.\n8. Stir cooked macaroni into the soup.\n9. Serve hot, garnished with chopped parsley if desired."
+          },
+          {
+            ingredients: ["chicken breasts", "balsamic vinegar", "honey", "garlic", "rosemary", "olive oil", "salt", "pepper"],
+            name: "Balsamic Glazed Chicken",
+            instructions: "1. In a small bowl, whisk together balsamic vinegar, honey, minced garlic, chopped rosemary, olive oil, salt, and pepper.\n2. Place chicken breasts in a shallow dish and pour the marinade over them.\n3. Cover and refrigerate for at least 30 minutes, or up to 4 hours.\n4. Preheat grill to medium-high heat.\n5. Remove chicken from marinade and discard excess.\n6. Grill chicken for 6-8 minutes per side, or until cooked through and juices run clear.\n7. Let chicken rest for a few minutes before serving.\n8. Serve hot, garnished with additional chopped rosemary if desired."
+          },
+          {
+            ingredients: ["pork chops", "balsamic vinegar", "honey", "garlic", "rosemary", "olive oil", "salt", "pepper"],
+            name: "Balsamic Glazed Pork Chops",
+            instructions: "1. In a small bowl, whisk together balsamic vinegar, honey, minced garlic, chopped rosemary, olive oil, salt, and pepper.\n2. Place pork chops in a shallow dish and pour the marinade over them.\n3. Cover and refrigerate for at least 30 minutes, or up to 4 hours.\n4. Preheat grill to medium-high heat.\n5. Remove pork chops from marinade and discard excess.\n6. Grill pork chops for 5-7 minutes per side, or until cooked through and juices run clear.\n7. Let pork chops rest for a few minutes before serving.\n8. Serve hot, garnished with additional chopped rosemary if desired."
+          },
+          {
+            ingredients: ["chicken breasts", "balsamic vinegar", "brown sugar", "garlic", "thyme", "salt", "pepper", "olive oil"],
+            name: "Balsamic Glazed Chicken Breasts",
+            instructions: "1. In a small bowl, whisk together balsamic vinegar, brown sugar, minced garlic, chopped thyme, salt, pepper, and olive oil.\n2. Place chicken breasts in a shallow dish and pour the marinade over them.\n3. Cover and refrigerate for at least 30 minutes, or up to 4 hours.\n4. Preheat grill to medium-high heat.\n5. Remove chicken from marinade and discard excess.\n6. Grill chicken for 6-8 minutes per side, or until cooked through and juices run clear.\n7. Let chicken rest for a few minutes before serving.\n8. Serve hot, garnished with additional chopped thyme if desired."
+          },
+          {
+            ingredients: ["pork tenderloin", "balsamic vinegar", "brown sugar", "garlic", "rosemary", "salt", "pepper", "olive oil"],
+            name: "Balsamic Glazed Pork Tenderloin",
+            instructions: "1. In a small bowl, whisk together balsamic vinegar, brown sugar, minced garlic, chopped rosemary, salt, pepper, and olive oil.\n2. Place pork tenderloin in a shallow dish and pour the marinade over it.\n3. Cover and refrigerate for at least 30 minutes, or up to 4 hours.\n4. Preheat oven to 400°F (200°C) and line a baking sheet with parchment paper.\n5. Remove pork tenderloin from marinade and place it on the prepared baking sheet.\n6. Roast for 25-30 minutes, or until pork is cooked through and reaches an internal temperature of 145°F (63°C).\n7. Let it rest for 5 minutes before slicing.\n8. Serve hot, garnished with additional chopped rosemary if desired."
+          },
+          {
+            ingredients: ["chicken thighs", "soy sauce", "hoisin sauce", "honey", "garlic", "ginger", "sriracha", "green onions", "sesame seeds"],
+            name: "Honey Garlic Chicken Thighs",
+            instructions: "1. In a bowl, whisk together soy sauce, hoisin sauce, honey, minced garlic, grated ginger, sriracha, sliced green onions, and sesame seeds.\n2. Place chicken thighs in a shallow dish and pour the marinade over them.\n3. Cover and refrigerate for at least 30 minutes, or up to 4 hours.\n4. Preheat oven to 400°F (200°C) and line a baking sheet with parchment paper.\n5. Remove chicken thighs from marinade and place them on the prepared baking sheet.\n6. Bake for 25-30 minutes, or until chicken is cooked through and juices run clear.\n7. Serve hot, garnished with additional sliced green onions and sesame seeds if desired."
+          },
+          {
+            ingredients: ["salmon fillets", "soy sauce", "brown sugar", "ginger", "garlic", "sesame oil", "rice vinegar", "cornstarch", "green onions", "sesame seeds"],
+            name: "Soy Ginger Glazed Salmon",
+            instructions: "1. In a bowl, whisk together soy sauce, brown sugar, grated ginger, minced garlic, sesame oil, rice vinegar, and cornstarch.\n2. Place salmon fillets in a shallow dish and pour the marinade over them.\n3. Cover and refrigerate for at least 30 minutes, or up to 4 hours.\n4. Preheat oven to 400°F (200°C) and line a baking sheet with parchment paper.\n5. Remove salmon fillets from marinade and place them on the prepared baking sheet.\n6. Bake for 12-15 minutes, or until salmon is cooked through and flakes easily with a fork.\n7. Serve hot, garnished with sliced green onions and sesame seeds."
+          },
+          {
+            ingredients: ["chicken breasts", "lemon", "garlic", "oregano", "thyme", "rosemary", "olive oil", "salt", "pepper"],
+            name: "Lemon Herb Grilled Chicken",
+            instructions: "1. In a small bowl, whisk together lemon juice, minced garlic, chopped oregano, chopped thyme, chopped rosemary, olive oil, salt, and pepper.\n2. Place chicken breasts in a shallow dish and pour the marinade over them.\n3. Cover and refrigerate for at least 30 minutes, or up to 4 hours.\n4. Preheat grill to medium-high heat.\n5. Remove chicken from marinade and discard excess.\n6. Grill chicken for 6-8 minutes per side, or until cooked through and juices run clear.\n7. Let chicken rest for a few minutes before serving.\n8. Serve hot, garnished with additional chopped herbs if desired."
+          },
+          {
+            ingredients: ["ground beef", "onion", "garlic", "bell pepper", "tomato sauce", "diced tomatoes", "chili powder", "cumin", "paprika", "cayenne pepper", "kidney beans", "black beans", "corn", "salt", "pepper"],
+            name: "Chunky Beef Chili",
+            instructions: "1. In a large pot, brown ground beef over medium heat.\n2. Add diced onion, minced garlic, chopped bell pepper, and cook until softened.\n3. Stir in tomato sauce, diced tomatoes, chili powder, cumin, paprika, cayenne pepper, salt, and pepper.\n4. Add kidney beans, black beans, and corn.\n5. Simmer for at least 30 minutes, stirring occasionally.\n6. Serve hot with your favorite toppings."
+          },
+          {
+            ingredients: ["chicken thighs", "honey", "soy sauce", "garlic", "ginger", "sesame oil", "red pepper flakes", "green onions", "sesame seeds"],
+            name: "Honey Soy Chicken Thighs",
+            instructions: "1. In a bowl, whisk together honey, soy sauce, minced garlic, grated ginger, sesame oil, and red pepper flakes.\n2. Place chicken thighs in a shallow dish and pour the marinade over them.\n3. Cover and refrigerate for at least 30 minutes, or up to 4 hours.\n4. Preheat oven to 400°F (200°C) and line a baking sheet with parchment paper.\n5. Remove chicken thighs from marinade and place them on the prepared baking sheet.\n6. Bake for 25-30 minutes, or until chicken is cooked through and juices run clear.\n7. Serve hot, garnished with sliced green onions and sesame seeds if desired."
+          },
+          {
+            ingredients: ["pork tenderloin", "apple cider vinegar", "honey", "dijon mustard", "garlic", "thyme", "salt", "pepper"],
+            name: "Honey Mustard Pork Tenderloin",
+            instructions: "1. Preheat oven to 400°F (200°C) and line a baking sheet with parchment paper.\n2. Season pork tenderloin with salt and pepper.\n3. In a small bowl, whisk together apple cider vinegar, honey, Dijon mustard, minced garlic, and chopped thyme.\n4. Brush the honey mustard mixture over the pork tenderloin.\n5. Place pork tenderloin on the prepared baking sheet.\n6. Bake for 25-30 minutes, or until pork is cooked through and reaches an internal temperature of 145°F (63°C).\n7. Let it rest for 5 minutes before slicing.\n8. Serve hot, garnished with additional chopped thyme if desired."
+          }
+        
     ]
 }
 ;

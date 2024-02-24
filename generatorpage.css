@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    background-color: rgba(244, 237, 229, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.header-container {
+    background-color: rgba(188, 201, 155, 1);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+h1 {
+    color: white;
+    margin: 0;
+}
+
+.container {
+    background-color: #ead3ca;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.instruction-container {
+    margin-bottom: 10px; /* Add margin-bottom to create space between instruction and input */
+    text-align: left; /* Align the text to the left */
+    color:  rgba(188,201,155,1);
+}
+
+.instruction-container label {
+    font-size: 1.5em; /* Decrease the font size */
+    color:  black;
+}
+
+.input-container {
+    margin-bottom: 10px; /* Add margin-bottom to create space between input and button */
+    color:  rgba(232,176,175,1);
+}
+
+.label {
+    text-align: left;
+    font-color: black
+}
+
+.button {
+    color: rgba(232,176,175,1);;
+}

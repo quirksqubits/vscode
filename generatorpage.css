@@ -112,3 +112,7 @@ h1 {
     box-shadow: #422800 2px 2px 0 0;
     transform: translate(2px, 2px);
   }  
+
+#resultsList {
+    background-color: #BCC99B;
+}

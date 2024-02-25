@@ -113,6 +113,12 @@ h1 {
     transform: translate(2px, 2px);
   }  
 
-#resultsList {
+#result {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 9%;
+    margin-right: 9%;
+    padding-left: 5%;
+    padding-right: 5%;
     background-color: #BCC99B;
 }
